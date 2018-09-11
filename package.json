@@ -1,0 +1,53 @@
+{
+  "_from": "eslint-plugin-j5bot",
+  "_id": "eslint-plugin-j5bot@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-TdcObN1xeKCmu/CWCCzFTvZwh6g=",
+  "_location": "/eslint-plugin-j5bot",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "eslint-plugin-j5bot",
+    "name": "eslint-plugin-j5bot",
+    "escapedName": "eslint-plugin-j5bot",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/eslint-plugin-j5bot/-/eslint-plugin-j5bot-0.0.1.tgz",
+  "_shasum": "4dd70e6cdd7178a0a6bbf096082cc54ef67087a8",
+  "_spec": "eslint-plugin-j5bot",
+  "_where": "/Users/j5/Code/deck-of-cards",
+  "author": {
+    "name": "Jonathan &#39;J5&#39; Cook"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "deprecated": false,
+  "description": "j5&#39;s custom eslint rules",
+  "devDependencies": {
+    "eslint": "~2.6.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "license": "ISC",
+  "main": "lib/index.js",
+  "name": "eslint-plugin-j5bot",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "version": "0.0.1"
+}
